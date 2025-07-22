@@ -1,0 +1,189 @@
+@media (max-width: 1024px){
+    .header{
+        padding: 36px 25px 0;
+    }
+    .offer{
+        background: url(../img/woman.png) 210% 100% no-repeat;
+    }
+    .offer__invision{
+        top: 75px;
+        right: 20px;
+    }
+    .offer__protopie{
+        top: 5px;
+        right: 190px;
+    }
+    .offer__miro{
+        top: 85px;
+        right: 370px;
+    }
+    .offer__photoshop{
+        top: 320px;
+        right: 450px;
+    }
+    .offer__figma{
+        top: 500px;
+        right: 650px;
+    }
+    .offer__illustrator{
+        top: 630px;
+        right: 570px;
+    }
+    .row{
+        display: block;
+    }
+    .profession__info-blocks{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profession__text{
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .profession__info{
+        justify-content: center;
+    }
+    .discover__title{
+        max-width: 100%;
+        text-align: center;
+    }
+    .discover__cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .find-program{
+        padding: 168px 25px;
+    }
+    .footer_wrapper{
+        padding: 68px 25px 0;
+    }
+}
+@media (max-width: 992px){
+    .offer{
+        background: url(../img/woman.png) 240% 100% no-repeat;
+    }
+    .offer__invision{
+        top: 80px;
+        right: -10px;
+    }
+    .offer__protopie{
+        right: 160px;
+    }
+    .offer__miro{
+        top: 80px;
+        right: 335px;
+    }
+    .offer__photoshop{
+        top: 335px;
+        right: 430px;
+    }
+    .offer__figma{
+        top: 470px;
+        right: 600px;
+    }
+    .offer__illustrator{
+        right: 540px;
+    }
+}
+@media (max-width: 834px){
+    .header{
+        align-items: start;
+    }
+    .btn-box{
+        flex-direction: column-reverse;
+    }
+    .offer{
+        background: none;
+        justify-content: center;
+        text-align: center;
+    }
+    .offer__holder{
+        background: url(../img/el20.png) 50% 10% no-repeat;
+    }
+    .offer__list{
+        display: none;
+    }
+    .row{
+        margin: 0;
+    }
+    .footer_wrapper{
+        display: block;
+        text-align: center;
+    }
+    .contacts{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 440px){
+    .header__box{
+        display: block;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .nav__list{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .profession__info{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .profession__info-item{
+        max-width: 255px;
+    }
+    .profession__info-itemm{
+        max-width: 100%;
+        text-align: center;
+        padding: 68px 0 0;
+    }
+    .profession__info-descriptions{
+        margin: 0 auto;
+    }
+    .profession__info-text{
+        margin-bottom: 12px;
+    }
+    .proffession__line{
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
+    .discover__cards{
+        margin: 100px 0 0;
+    }
+    .find-program{
+        display: block;
+    }
+    .find-program__text{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .logos{
+        justify-content: center;
+    }
+    .copyright{
+        max-width: 100%;
+        text-align: center;
+        display: block;
+    }
+}
+@media (max-width: 360px){
+    .header{
+        display: block;
+    }
+    .header__box{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .btn-box{
+        gap: 30px;
+    }
+}
