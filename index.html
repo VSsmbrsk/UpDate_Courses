@@ -14,38 +14,51 @@
 <header class="container header">
     <div class="header__box">
         <a class="logo" href="index.html" aria-label="Go to homepage" tabindex="0">
-            <img src="img/logo.svg" alt="logo" role="img">
+            <img src="img/logo.svg" alt="logo">
             UpDate
         </a>
-        <nav class="nav" role="navigation">
-            <ul class="nav__list" role="list">
+        <nav class="nav">
+            <ul class="nav__list">
                 <li>
-                    <a class="link" role="link" href="#">Courses</a>
+                    <a class="link" href="#">Courses</a>
                 </li>
                 <li>
-                    <a class="link" role="link" href="#">Teachers</a>
+                    <a class="link" href="#">Teachers</a>
                 </li>
                 <li>
-                    <a class="link" role="link" href="#">Blog</a>
+                    <a class="link" href="#">Blog</a>
                 </li>
             </ul>
         </nav>
     </div>
     <div class="btn-box">
-        <a class="header__link arrow" role="link" href="#" aria-label="Change language to English" tabindex="0"> 
-            En
-        </a>  
-        <a class="header__link" role="link" href="#" aria-label="Sign in to your account" tabindex="0">
+        <div class="language-dropdown">
+            <button class="header__link arrow language-btn" type="button" aria-label="Select language" aria-expanded="false" tabindex="0"> 
+                En
+            </button>
+            <ul class="language-dropdown__menu" role="menu">
+                <li role="menuitem">
+                    <a class="language-dropdown__item" href="#" aria-label="Change language to English">English</a>
+                </li>
+                <li role="menuitem">
+                    <a class="language-dropdown__item" href="#" aria-label="Change language to French">French</a>
+                </li>
+                <li role="menuitem">
+                    <a class="language-dropdown__item" href="#" aria-label="Change language to Russian">Russian</a>
+                </li>
+            </ul>
+        </div>
+        <a class="header__link" href="#" aria-label="Sign in to your account" tabindex="0">
             Sign In
-        </a>  
-        <a class="header__btn" role="link" href="#" aria-label="Start free trial" tabindex="0">
+        </a>
+        <a class="header__btn" href="#" aria-label="Start free trial" tabindex="0">
             Trial free
         </a>    
     </div>   
 </header>
 <main>
     <section>
-        <div class="offer container" role="main">
+        <div class="offer container">
             <div class="offer__holder">
                 <span class="duration">
                     6 months
@@ -57,19 +70,17 @@
                     UI/UX designer
                 </h1>
             <p class="offer__description">
-                You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma.
-    Add posters, logos, merch design and other strong projects to your portfolio. Start a career in the studio or freelance.
+                You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma. Add posters, logos, merch design and other strong projects to your portfolio. Start a career in the studio or freelance.
             </p>
-            <button class="offer-btn" role="button" aria-label="Get started with the course" tabindex="0">
+            <button class="offer-btn" aria-label="Get started with the course" tabindex="0">
                 Started
             </button>
-    
             <p class="offer__sale">
                 25%
             </p>
             <p class="offer__time" aria-label="Offer ends in 17 days, 17 hours, 44 minutes and 16 seconds" tabindex="0">17 Days<span>17:44:16</span></p>
         </div>
-        <ul class="offer__list" role="list">
+        <ul class="offer__list">
             <li class="offer__invision offer__item">
                 InVision
             </li>
@@ -95,35 +106,35 @@
         <div class="row container">
             <div class="profession__text">
                 <h2 class="profession__title">
-                         Profession UI/UX designer
+                    Profession UI/UX designer
                 </h2>
                 <p class="profession__description">
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis  occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
                 </p>
             </div>
             <div class="profession__info">
                 <div class="profession__info-item">
                     <h4 class="profession__info-number">
-                            5000$
+                        5000$
                     </h4>
                     <p class="profession__info-label">
-                            Salary
+                        Salary
                     </p>
                     <div class="profession__line"></div>
                     <p class="profession__info-description">
-                            Nam libero tempore, cum soluta nobis est
+                        Nam libero tempore, cum soluta nobis est
                     </p>
                 </div>
                 <div class="profession__info-item">
                     <h4 class="profession__info-number">
-                            4225
+                        4225
                     </h4>
                     <p class="profession__info-label">
-                            Vacancies
+                        Vacancies
                     </p>
                     <div class="profession__line"></div>
                     <p class="profession__info-description">
-                                Vero eos et accusamus
+                        Vero eos et accusamus
                     </p>
                 </div>
             </div>
@@ -132,32 +143,31 @@
         <div class="profession__info-blocks container">
             <div class="profession__info-itemm portfolio">
                 <h4 class="profession__info-text">
-                        Portfolio
+                    Portfolio
                 </h4>
-                <div class="proffession__line"></div>
+                <div class="profession__line"></div>
                 <p class="profession__info-descriptions">
-                        You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
+                    You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
                 </p>
             </div>
             <div class="profession__info-itemm internship">
-                 <h4 class="profession__info-text">
-                        Internship
+                <h4 class="profession__info-text">
+                    Internship
                 </h4>
-                <div class="proffession__line"></div>
+                <div class="profession__line"></div>
                 <p class="profession__info-descriptions">
-                        You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
+                    You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
                 </p>
             </div>
             <div class="profession__info-itemm certificate">
                 <h4 class="profession__info-text">
-                        Certificate
+                    Certificate
                 </h4>
-                <div class="proffession__line"></div>
+                <div class="profession__line"></div>
                 <p class="profession__info-descriptions">
-                        You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
+                    You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
                 </p>
             </div>
-        </div>
         </div>      
     </section>
     <section>
@@ -170,96 +180,56 @@
                     <h3 class="discover__description">
                         Base
                     </h3>
-                    <ul role="list">
-                        <li>
-                            Et dolorum fuga et harum quidem rerum
-                        </li>
-                        <li>
-                            Mentors and community support
-                        </li>
-                        <li>
-                            Necessitatibus saepe
-                        </li>
-                        <li>
-                            Ut aut reiciendis
-                        </li>
+                    <ul>
+                        <li>Et dolorum fuga et harum quidem rerum</li>
+                        <li>Mentors and community support</li>
+                        <li>Necessitatibus saepe</li>
+                        <li>Ut aut reiciendis</li>
                     </ul>
                     <div class="helper">
-                        <span class="discover__number_first">
-                            12000$
-                        </span>
-                        <span class="discover__number_second">
-                            3000$
-                        </span>
-                    <button class="choose-btn" role="button" aria-label="Choose Base plan" tabindex="0">
-                        Choose
-                    </button>
+                        <span class="discover__number_first">12000$</span>
+                        <span class="discover__number_second">3000$</span>
+                        <button class="choose-btn" aria-label="Choose Base plan" tabindex="0">
+                            Choose
+                        </button>
                     </div>
                 </div>
                 <div class="discover_optimal">
                     <h3 class="optimal_title">
                         Optimal
                     </h3>
-                    <ul role="list">
-                        <li>
-                            Rerum hic tenetur a sapiente
-                        </li>
-                        <li>
-                            Consectetur, adipisci velit
-                        </li>
-                        <li>
-                            Ut aliquid ex ea commodi consequatur
-                        </li>
-                        <li>
-                            Eum fugiat quo voluptas nulla
-                        </li>
-                        <li>
-                            Illo inventore veritatis et quasi architecto
-                        </li>
+                    <ul>
+                        <li>Rerum hic tenetur a sapiente</li>
+                        <li>Consectetur, adipisci velit</li>
+                        <li>Ut aliquid ex ea commodi consequatur</li>
+                        <li>Eum fugiat quo voluptas nulla</li>
+                        <li>Illo inventore veritatis et quasi architecto</li>
                     </ul>
                     <div class="helper_optimal">
-                        <span class="optimal_price_one">
-                            24000$
-                        </span>
-                        <span class="optimal_price_two">
-                            6000$
-                        </span>
-                    <button class="optimal-btn" role="button" aria-label="Choose Optimal plan" tabindex="0">
-                        Choose
-                    </button>
+                        <span class="optimal_price_one">24000$</span>
+                        <span class="optimal_price_two">6000$</span>
+                        <button class="optimal-btn" aria-label="Choose Optimal plan" tabindex="0">
+                            Choose
+                        </button>
                     </div>
                 </div>
                 <div class="discover_premium">
                     <h3 class="discover__description">
                         Premium
                     </h3>
-                    <ul role="list">
-                        <li>
-                            Ullamco laboris nisi ut
-                        </li>
-                        <li>
-                            Voluptate velit esse cillum
-                        </li>
-                        <li>
-                            Qui in ea voluptate velit esse quam nihil molestiae
-                        </li>
-                        <li>
-                            Necessitatibus saepe eveniet
-                        </li>
-                        <li>
-                            Sunt in culpa qui officia
-                        </li>
+                    <ul>
+                        <li>Ullamco laboris nisi ut</li>
+                        <li>Voluptate velit esse cillum</li>
+                        <li>Qui in ea voluptate velit esse quam nihil molestiae</li>
+                        <li>Necessitatibus saepe eveniet</li>
+                        <li>Sunt in culpa qui officia</li>
                     </ul>
                     <div class="helper_premium">
-                        <span class="discover__number_first">
-                            64000$
-                        </span>
-                        <span class="discover__number_second">
-                            18000$
-                        </span>
-                    <button class="choose-btn" role="button" aria-label="Choose Premium plan" tabindex="0">
-                        Choose
-                    </button>
+                        <span class="discover__number_first">64000$</span>
+                        <span class="discover__number_second">18000$</span>
+                        <button class="choose-btn" aria-label="Choose Premium plan" tabindex="0">
+                            Choose
+                        </button>
                     </div>
                 </div>
             </div>
@@ -275,12 +245,12 @@
                     We will help you with the choice!
                 </p>
             </div>
-            <form action="https://fom.in.ua/echo" class="find-program__form" role="form">
+            <form action="https://fom.in.ua/echo" class="find-program__form">
                 <input type="text" name="name" placeholder="Name" aria-label="Your name" required tabindex="0">
                 <input type="email" name="email" placeholder="Email" aria-label="Your email address" required tabindex="0">
-              <button class="form_btn" role="button" aria-label="Send request for program help" tabindex="0">
-                Help me
-              </button>  
+                <button class="form_btn" aria-label="Send request for program help" tabindex="0">
+                    Help me
+                </button>
             </form>
             </div>
         </section>
@@ -289,120 +259,51 @@
     <div class="footer_wrapper container">
         <div class="contacts">
             <a class="logos" href="index.html">
-            <img src="img/logos.svg" alt="logo">
-            UpDate
+                <img src="img/logos.svg" alt="logo">
+                UpDate
             </a>
-          <a class="mails" href="mailto:support@update.com" role="link" aria-label="Send email to support@update.com" tabindex="0">support@update.com</a>
-          <a class="call" href="tel:+12136771024" role="link" aria-label="Call support at +1 (213) 677 10 24" tabindex="0">+1 (213) 677 10 24</a>
+            <a class="mails" href="mailto:support@update.com" aria-label="Send email to support@update.com" tabindex="0">support@update.com</a>
+            <a class="call" href="tel:+12136771024" aria-label="Call support at +1 (213) 677 10 24" tabindex="0">+1 (213) 677 10 24</a>
         </div>
         <div class="footer_list">
-        <h6>
-            Courses
-        </h6>
-        <ul role="list">
-            <li>
-                <a href="#" role="link">
-                    Animation
-                </a>
-            </li>
-            <li>
-                <a href="#" role="link">
-                    Design
-                </a>
-            </li>
-            <li>
-                <a href="#" role="link">
-                    Illustration
-                </a>
-            </li>
-            <li>
-                <a href="#" role="link">
-                    Programming
-                </a>
-            </li>
-            <li>
-                <a href="#" role="link">
-                    Photo & Film
-                </a>
-            </li>
-            <li>
-                <a href="#" role="link">
-                    Marketing
-                </a>
-            </li>
-        </ul>
+            <h6>Courses</h6>
+            <ul>
+                <li><a href="#">Animation</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Illustration</a></li>
+                <li><a href="#">Programming</a></li>
+                <li><a href="#">Photo & Film</a></li>
+                <li><a href="#">Marketing</a></li>
+            </ul>
         </div>
         <div class="footer_list">
-        <h6>
-            Teachers
-        </h6>
-        <ul>
-            <li>
-                <a href="#" role="link">
-                    All Teachers
-                </a>
-            </li>
-            <li>
-                <a href="#" role="link">
-                    Become a Teacher
-                </a>
-            </li>
-        </ul>
+            <h6>Teachers</h6>
+            <ul>
+                <li><a href="#">All Teachers</a></li>
+                <li><a href="#">Become a Teacher</a></li>
+            </ul>
         </div>
         <div class="footer_list">
-        <h6>
-            Information
-        </h6>
-        <ul role="list">
-            <li>
-                <a href="#" role="link">
-                    Blog
-                </a>
-            </li>
-            <li>
-                <a href="#" role="link">
-                    About us
-                </a>
-            </li>
-            <li>
-                <a href="#" role="link">
-                    FAQ
-                </a>
-            </li>
-        </ul>
+            <h6>Information</h6>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
         </div>
         <div class="footer_list">
-        <h6>
-            En
-        </h6>
-        <ul role="list">
-            <li>
-                <a href="#" role="link">
-                    English
-                </a>
-            </li>
-            <li>
-                <a href="#" role="link">
-                    French
-                </a>
-            </li>
-            <li>
-                <a href="#" role="link">
-                    Russian
-                </a>
-            </li>
-        </ul>
+            <h6>En</h6>
+            <ul>
+                <li><a href="#">English</a></li>
+                <li><a href="#">French</a></li>
+                <li><a href="#">Russian</a></li>
+            </ul>
         </div>
     </div>
     <div class="copyright">
-        <p>
-        Policy privacy
-        </p>
-        <p>
-            Copyright 2022. All rights reserved
-        </p>
+        <p>Policy privacy</p>
+        <p>Copyright 2022. All rights reserved</p>
     </div>
-    
 </footer>
 </body>
 </html>
